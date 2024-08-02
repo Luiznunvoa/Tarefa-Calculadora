@@ -1,0 +1,82 @@
+
+html, body {
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+}
+
+body {
+   background-color: rgb(65, 34, 119);
+   margin: 0;
+   font-family: Arial, sans-serif;
+}
+
+header {
+   height: 10%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(65, 34, 119);
+}
+
+header h1 {
+   color: white;
+}
+
+main {
+   width: 100%;
+   height: 70%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+section {
+   border: 2px solid black;
+   background-color: white;
+   width: 25%;
+   height: 60%;
+   border-radius: 2.5%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 1em;
+}
+
+div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 1em;
+}
+
+label {
+   margin-right: 0.5em;
+}
+
+input {
+   width: 60%;
+   padding: 0.5em;
+   border: 1px solid black;
+   margin-right: 0.5em;
+}
+
+button {
+   padding: 0.5em;
+}
+
+#notasAlunos {
+   width: 100%;
+   height: 60%;
+   border: 1px solid black;
+   overflow: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0.5em;
+}
+
+#media {
+   margin-top: 0.5em;
+}
